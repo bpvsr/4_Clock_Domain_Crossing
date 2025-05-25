@@ -1,0 +1,9 @@
+When ever data is getting transferred from Fast domain (100MHz) to 
+Slow domain (50MHz), then we can see that the data has been
+Fast (100MHz)   Slow(50MHz)
+10ns 			 20ns 
+
+data has to be stable for 1.5 *20ns / 10ns = 3 cycles 
+
+                          1.5 * 10ns / 20ns = 1 cycle 
+						  
